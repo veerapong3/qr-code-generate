@@ -33,6 +33,11 @@
 					echo "<a href='https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=$code&choe=UTF-8'>Link</a>";
 				}
 				?>
+				<a href="download.php">Download</a>
+
+				<?php
+$url = 'http://chart.apis.google.com/chart?my-generated-chart-api-url';
+<a href="download.php?url=<?php echo urlencode($url); ?>">ddDownload</a>
 			</div>
 		</div>
 	</div>
