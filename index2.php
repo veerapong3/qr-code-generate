@@ -8,3 +8,5 @@
   // create download button
   echo '<a href="download-qr-code.php?url='.encodeURIComponent($qr_code).'" class="btn btn-md btn-success" download>Download</a>';
 ?>
+
+
