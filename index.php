@@ -34,13 +34,12 @@ include "functions.php";
 						<img src='https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=$code&choe=UTF-8'>
 					";
 					echo "<a href='https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=$code&choe=UTF-8'>Link</a>";
-					echo '<a href="download-qr-code.php?url='.encodeURIComponent($code).'" class="btn btn-md btn-success" download>Download</a>';
 				}
 
 				$qr_code = "https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=w3programmings.com&choe=UTF-8";
-
+				$qr = "https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=$code&choe=UTF-8";
 				// create download button
-				echo '<a href="download-qr-code.php?url='.encodeURIComponent($qr_code).'" class="btn btn-md btn-success" download>Download</a>';
+				echo '<a href="download-qr-code.php?url='.encodeURIComponent($qr).'" class="btn btn-md btn-success" download>Download</a>';
 			  
 				?>
 				
